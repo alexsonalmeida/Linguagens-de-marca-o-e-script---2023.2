@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Songs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- conteinter principal do site -->
+    <main class="flex flex-col h-screen bg-slate-950 px-24 py-4">
+        <!-- área de conteudo do site -->
+        <article class="flex flex-col items-center rounded bg-sky-950 p-4">
+            <h1 class="font-bold text-4xl text-slate-100">Rock songs</h1>
+            <h2 class="font-bold text-2xl text-slate-200">A lista definitiva com as melhores do rock</h2>
+            <!-- sessão de links -->
+            <section class="mt-10">
+                <p class="text-slate-200 self-start">Links de referência: </p>
+                <ul class="flex gap-6 mt-0.5 items-center">
+                    <!-- muda a cor do texto ao passar o mouse por cima -->
+                    <li class="w-48 text-slate-50 hover:text-slate-200"><a href="https://www.letras.mus.br/blog/classicos-do-rock/">Os 33 maiores clássicos do rock de todos os tempos</a>
+                    </li>
+                    <!-- muda a cor do texto ao passar o mouse por cima -->
+                    <li class="w-48 text-slate-50 hover:text-slate-200">
+                        <a href="https://papodehomem.com.br/as-50-melhores-musicas-de-rock-de-todos-os-tempos/">As 50 melhores músicas de rock de todos os tempos </a>
+                    </li>
+                    <!-- muda o tamanho da imagem ao passar o mouse por cima -->
+                    <li>
+                        <a href="https://slipknot1.com/home/">
+                            <img class="h-20 w-20 hover:h-24 hover:w-24" src="/assets/slipknotcapa.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>                
+            </section>
+
+            <!-- tabela com o ranking das músicas -->
+            <table class="text-slate-100 mt-8 border p-2">
+                <thead class="border">
+                    <tr>
+                        <th>Ranking</th>
+                        <th>Nome</th>
+                        <th>Cantor/banda</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td>1</td>
+                        <!-- Definindo uma largura diferente para não ficar colado no do lado -->
+                        <td class="w-48">Dirty Deeds Done Dirt Cheap</td>
+                        <td><strong>AC/CD</strong></td>
+                    </tr>
+
+                    <tr class="border">
+                        <td>2</td>
+                        <td>Paranoid</td>
+                        <td><strong>Black Sabbath</strong></td>
+                    </tr>
+
+                    <tr class="border">
+                        <td>3</td>
+                        <td>Highway to Hell</td>
+                        <td><strong>AC/CD</strong></td>
+                    </tr>
+    
+                    <tr class="border">
+                        <td>4</td>
+                        <td>Snuff</td>
+                        <td><strong>Slipknot</strong></td>
+                    </tr>
+                    <tr class="border">
+                        <td>5</td>
+                        <td>Toxicity</td>
+                        <td><strong>System of a down</strong></td>
+                    </tr>
+
+                    <tr class="border">
+                        <td>6</td>
+                        <td>Otherside</td>
+                        <td><strong>Red Hot Chilli Peppers</strong></td>
+                    </tr>
+                    <tr class="border">
+                        <td>7</td>
+                        <td>Before I Forget</td>
+                        <td><strong>Slipknot</strong></td>
+                    </tr>
+
+                    <tr class="border">
+                        <td>8</td>
+                        <td>Whiskey in the jar</td>
+                        <td><strong>Metallica</strong></td>
+                    </tr>
+
+                    <tr class="border">
+                        <td>9</td>
+                        <td>Smells Like Teen Spirit</td>
+                        <td><strong>Nirvana</strong> </td>
+                    </tr>
+
+                    <tr class="border">
+                        <td>10</td>
+                        <td>It's my life</td>
+                        <td><strong>Bon Jovi</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </main>
+</body>
+</html>
